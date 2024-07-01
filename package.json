@@ -1,0 +1,35 @@
+{
+  "name": "MonoPro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged",
+    "start": "concurrently \"pnpm start --filter @monopro/base\"",
+    "start:base": "pnpm --filter @monopro/base run dev"
+  },
+  "keywords": [],
+  "author": "Lorenzo",
+  "license": "ISC",
+  "dependencies": {
+    "@monopro/base": "workspace:*",
+    "@vitejs/plugin-legacy": "^5.4.1",
+    "axios": "^1.7.2",
+    "husky": "^9.0.11",
+    "jsencrypt": "^3.3.2",
+    "qiankun": "^2.10.16",
+    "sass": "^1.77.6",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/node": "^20.14.9",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "concurrently": "^8.2.2",
+    "lint-staged": "^15.2.7",
+    "tailwindcss": "^3.4.4"
+  }
+}

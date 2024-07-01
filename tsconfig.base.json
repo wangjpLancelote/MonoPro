@@ -1,0 +1,26 @@
+// tsconfig.base.json
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "packages/*/src"]
+    },
+    "declaration": true,
+    "outDir": "./dist",
+    "composite": true
+  },
+  "include": [
+    "packages/**/*"
+  ],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
