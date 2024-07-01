@@ -6,6 +6,7 @@
 涉及到的技术包含：React、VUe3、
 Svelte、Solid、Next.js、Nuxt.js、
 Remix、Vite、Qiankun、Typescript
+Remix、Astro
 ```
 
 ### 启动项目
