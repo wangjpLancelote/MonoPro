@@ -3,9 +3,9 @@
 ## pnpm-workspace 搭建的多项目仓库
 
 ```docs
-涉及到的技术包含：React、VUe3、
+涉及到的技术包含：React、Vue3、
 Svelte、Solid、Next.js、Nuxt.js、
-Remix、Vite、Qiankun、Typescript
+Vite、Qiankun、Typescript
 Remix、Astro
 ```
 
